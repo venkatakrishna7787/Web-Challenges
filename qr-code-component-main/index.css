@@ -10,16 +10,16 @@
 
 .mainContainer {
     background-color: hsl(212, 45%, 89%);
-    width: 95%;
-    height: 70vh;
-    margin: 70px auto;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .qrBoxContainer {
-    width: 180px;
+    max-width: 300px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 8px;
     text-align: center;
@@ -37,58 +37,47 @@
     border-radius: 8px;
 }
 
-.textContainer{
-    width: 95%;
+.textContainer {
+    width: 90%;
     margin: 0 auto;
 }
 
 .qrBoxContainer .head1 {
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 700;
-    margin:10px 0;
+    margin: 10px 0;
 
 }
 
 .qrBoxContainer .head2 {
-    font-size: 9px;
+    font-size: 14px;
     font-weight: 400;
     color: hsl(212, 45%, 89%);
     margin-bottom: 10px;
 }
 
-@media (max-width:450px){
-    
+@media (max-width:450px) {
     .qrBoxContainer {
-        width: 85%;
-    }
-    .qrBoxContainer {
-        width: 70%;
-    }
-    .qrImageContainer {
-        width: 100%;
+        max-width: 90%;
+        background-color: hsl(0, 0%, 100%);
         border-radius: 8px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .textContainer {
+        width: 90%;
         margin: 0 auto;
     }
-    .qrCodeImage {
-        width: 100%;
-        border-radius: 8px;
-    }
-    .textContainer{
-        width: 95%;
-        margin: 0 auto;
-    }
-    
+
     .qrBoxContainer .head1 {
-        font-size: 15px;
+        font-size: 22px;
         font-weight: 700;
-        margin:10px 0;
-    
+        margin: 15px 0;
     }
-    
+
     .qrBoxContainer .head2 {
-        font-size: 12px;
-        font-weight: 400;
-        color: hsl(212, 45%, 89%);
-        margin-bottom: 10px;
+        font-size: 16px;
+        margin-bottom: 15px;
     }
 }
