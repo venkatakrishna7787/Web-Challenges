@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    background-color: hsl(212, 45%, 89%);
+    width: 95%;
+    height: 70vh;
+    margin: 70px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qrBoxContainer {
+    width: 180px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+}
+
+.qrImageContainer {
+    width: 100%;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.qrCodeImage {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.textContainer{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.qrBoxContainer .head1 {
+    font-size: 13px;
+    font-weight: 700;
+    margin:10px 0;
+
+}
+
+.qrBoxContainer .head2 {
+    font-size: 9px;
+    font-weight: 400;
+    color: hsl(212, 45%, 89%);
+    margin-bottom: 10px;
+}
+
+@media (max-width:450px){
+    
+    .qrBoxContainer {
+        width: 85%;
+    }
+    .qrBoxContainer {
+        width: 70%;
+    }
+    .qrImageContainer {
+        width: 100%;
+        border-radius: 8px;
+        margin: 0 auto;
+    }
+    .qrCodeImage {
+        width: 100%;
+        border-radius: 8px;
+    }
+    .textContainer{
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .qrBoxContainer .head1 {
+        font-size: 15px;
+        font-weight: 700;
+        margin:10px 0;
+    
+    }
+    
+    .qrBoxContainer .head2 {
+        font-size: 12px;
+        font-weight: 400;
+        color: hsl(212, 45%, 89%);
+        margin-bottom: 10px;
+    }
+}
