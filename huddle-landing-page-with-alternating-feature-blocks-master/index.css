@@ -376,4 +376,18 @@ font-family: 'Poppins', sans-serif; */
     font-size: 12px;
     width: 10rem;
   }
+  .sectionLeft {
+    width: 100%;
+  }
+  .sectionLeft h1{
+     font-size: 25px;
+    width: auto;
+    text-wrap: wrap;
+    overflow-wrap: break-word;
+  }
+  .sectionRight {
+    width: auto;
+    text-wrap: wrap;
+    overflow-wrap: break-word;
+  }
 }
